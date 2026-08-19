@@ -28,7 +28,7 @@ def knapsack_dp(weights, values, capacity):
 weights = [2, 3, 4, 5]
 values = [1, 2, 5, 6]
 capacity = 8
-
+item=4
 maximum_value, selection = knapsack_dp(weights, values, capacity)
 
 print("Maximum Value:", maximum_value)
